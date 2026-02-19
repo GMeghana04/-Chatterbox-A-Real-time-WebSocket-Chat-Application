@@ -1,5 +1,5 @@
-🚀 ChatterBox – Real-Time WebSocket Chat Application
-📌 Overview
+### 🚀 ChatterBox – Real-Time WebSocket Chat Application
+### 📌 Overview
 
 ChatterBox is a full-stack real-time chat application built using FastAPI and WebSockets.
 It enables secure user authentication, instant bi-directional communication, automated content moderation, and an admin monitoring dashboard.
@@ -12,65 +12,73 @@ Real-time communication handling
 Database-driven message persistence
 
 ### ✨ Key Features
+### Authentication & Security
+- User Registration & Login – Secure user account creation
+- Credential validation during login
+- JWT-Based Authentication – Token generated upon successful login
+- Stateless session management
+- Token validation before WebSocket access
+- Secure Password Hashing (bcrypt) – Passwords stored in hashed format
+- Protection against plaintext password storage
+- Authenticated User Identity Management
+- Username extracted from JWT
+- Message ownership clearly identified
 
-🔐 User Registration & Login
-Secure user account creation
-Credential validation during login
-🎫 JWT-Based Authentication
-Token generated upon successful login
-Stateless session management
-Token validation before WebSocket access
-🔑 Secure Password Hashing (bcrypt)
-Passwords stored in hashed format
-Protection against plain-text password storage
-👤 Authenticated User Identity Management
-Username extracted from JWT
-Message ownership clearly identified
-💬 Real-Time Messaging using WebSockets
-Persistent bi-directional communication
-Instant message broadcasting
-No polling required
-📡 Multi-User Concurrent Support
-Handles multiple connected users simultaneously
-Asynchronous backend architecture
-🔁 Live Message Broadcasting
-Messages sent by one user delivered to all active users
-Event-driven architecture
-🗄️ SQLite Database Integration
-Stores registered users
-Stores chat history persistently
-🕒 Message Timestamping
-Each message tagged with time
-Improves message traceability
-📜 Chat History Retrieval
-Previously stored messages available
-Persistent conversation storage
-🧠 Connection Manager Module
-Tracks active WebSocket connections
-Handles connect & disconnect events
-🎨 Structured Frontend Interface
-Separate Login & Chat pages
-Clean and minimal UI design
-➡️ Message Differentiation UI
-Current user messages aligned right
-Other users’ messages aligned left
-🔄 Auto Scroll for New Messages
-Automatically scrolls to latest message
-🛡️ Access-Controlled WebSocket Endpoint
-Only authenticated users can join chat
-Prevents anonymous access
-📂 Modular Project Structure
-Backend and frontend separated
-Clean file organization
-🧪 Error Handling & Connection Handling
-Handles invalid tokens
-Handles disconnections gracefully
-🌐 Local Deployment Ready
-Runs on Uvicorn server
-Frontend accessible via browser
-📦 Version Control with Git & GitHub
-MIT Licensed
-Open-source ready
+### Real-Time Communication
+- Real-Time Messaging using WebSockets
+- Persistent bi-directional communication
+- Instant message broadcasting – No polling required
+- Multi-User Concurrent Support
+- Handles multiple connected users simultaneously
+- Asynchronous backend architecture
+- Live Message Broadcasting
+- Messages sent by one user delivered to all active users
+- Event-driven architecture
+
+### Database & Data Persistence
+- SQLite Database Integration
+- Stores registered users
+- Stores chat history persistently
+- Message Timestamping
+- Each message tagged with time
+- Improves message traceability
+- Chat History Retrieval – Previously stored messages available
+- Persistent conversation storage
+
+### Connection Management
+- Connection Manager Module
+- Tracks active WebSocket connections
+- Handles connect & disconnect events
+
+### Frontend Features
+- Structured Frontend Interface
+- Separate Login & Chat pages
+- Clean and minimal UI design
+- Message Differentiation in UI
+- Current user messages aligned right
+- Other users' messages aligned left
+- Auto Scroll for New Messages
+- Automatically scrolls to latest message
+
+### Access Control
+- Access-Controlled WebSocket Endpoint
+- Only authenticated users can join chat
+- Prevents anonymous access
+
+### Project Structure & Error Handling
+- Modular Project Structure
+- Backend and frontend separated
+- Clean file organization
+- Error Handling & Connection Handling
+- Handles invalid tokens
+- Handles disconnections gracefully
+
+### Deployment & Version Control
+- Local Deployment Ready
+- Runs on Uvicorn server
+- Frontend accessible via browser
+- Version Control with Git & GitHub
+- MIT Licensed – Open-source ready
 
 ### 🛠️ Tech Stack
 ### 🔹 Backend
