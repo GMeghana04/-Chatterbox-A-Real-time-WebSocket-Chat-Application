@@ -135,17 +135,17 @@ git clone https://github.com/GMeghana04/-Chatterbox-A-Real-time-WebSocket-Chat-A
 cd -Chatterbox-A-Real-time-WebSocket-Chat-Application
 
 ### Step 2: Set Up Backend
-# Navigate to server directory
+### Navigate to server directory
 cd server
 
-# Install dependencies
+### Install dependencies
 pip install fastapi uvicorn websockets bcrypt python-multipart
 
-# Or install from requirements.txt
+### Or install from requirements.txt
 pip install -r requirements.txt
 
 ### Step 3: Run the Server
-# Start the FastAPI server
+### Start the FastAPI server
 cd server
 uvicorn server:app --reload  
 Expected output:
