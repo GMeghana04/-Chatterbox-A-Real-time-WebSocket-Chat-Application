@@ -33,12 +33,13 @@ A modern, real-time chat application built with **FastAPI** (WebSockets) and a c
 
 ## 📂 Project Structure
 REAL-TIME-CHATTER-APPLICATION/
+│
 ├── server/ # Backend FastAPI application
-│ ├── auth.py # Authentication routes (register/login)
+│ ├── auth.py # Authentication routes
 │ ├── config.py # Configuration settings
-│ ├── database.py # Database initialization and operations
-│ ├── models.py # Pydantic models for request/response
-│ ├── server.py # Main FastAPI app with WebSocket endpoint
+│ ├── database.py # Database operations
+│ ├── models.py # Pydantic models
+│ ├── server.py # Main FastAPI app
 │ ├── websocket_manager.py # WebSocket connection manager
 │ ├── requirements.txt # Backend dependencies
 │ └── chat.db # SQLite database file
@@ -49,10 +50,10 @@ REAL-TIME-CHATTER-APPLICATION/
 │
 ├── frontend/ # Web frontend
 │ └── index.html # Single-page application with:
-│ ├── Login/Register UI # Tabbed authentication forms
-│ ├── Chat Interface # Real-time messaging layout
-│ ├── Online Users Sidebar # Active users list
-│ └── Embedded CSS/JavaScript # Styling and WebSocket logic
+│ # - Login/Register UI
+│ # - Chat Interface
+│ # - Online Users Sidebar
+│ # - Embedded CSS/JavaScript
 │
 ├── .gitignore # Git ignore rules
 ├── LICENSE # MIT License
