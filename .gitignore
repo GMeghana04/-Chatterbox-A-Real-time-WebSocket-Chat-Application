@@ -1,0 +1,6 @@
+# Open .gitignore and add these lines if missing:
+echo "" >> .gitignore
+echo "# Byte-compiled files" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+"" 
