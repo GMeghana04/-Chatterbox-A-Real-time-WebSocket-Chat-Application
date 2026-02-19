@@ -31,34 +31,35 @@ A modern, real-time chat application built with **FastAPI** (WebSockets) and a c
 - **JavaScript**: Vanilla JS with WebSocket client
 - **LocalStorage**: Session persistence
 
-## 📂 Project Structure
-REAL-TIME-CHATTER-APPLICATION/
-│
-├── server/ # Backend FastAPI application
-│ ├── auth.py # Authentication routes
-│ ├── config.py # Configuration settings
-│ ├── database.py # Database operations
-│ ├── models.py # Pydantic models
-│ ├── server.py # Main FastAPI app
-│ ├── websocket_manager.py # WebSocket connection manager
-│ ├── requirements.txt # Backend dependencies
-│ └── chat.db # SQLite database file
-│
-├── client/ # Python client (optional)
-│ ├── client.py # Terminal-based chat client
-│ └── requirements.txt # Client dependencies
-│
-├── frontend/ # Web frontend
-│ └── index.html # Single-page application with:
-│ # - Login/Register UI
-│ # - Chat Interface
-│ # - Online Users Sidebar
-│ # - Embedded CSS/JavaScript
-│
-├── .gitignore # Git ignore rules
-├── LICENSE # MIT License
-└── README.md # Project documentation
+## 📁 Project Structure
 
+### 📂 **server/** - Backend Application
+- `auth.py` - User registration and login
+- `config.py` - Configuration settings
+- `database.py` - Database operations
+- `models.py` - Data models
+- `server.py` - Main FastAPI server
+- `websocket_manager.py` - WebSocket connections
+- `requirements.txt` - Python dependencies
+- `chat.db` - SQLite database
+
+### 📂 **client/** - Python Client (Optional)
+- `client.py` - Terminal-based chat client
+- `requirements.txt` - Client dependencies
+
+### 📂 **frontend/** - Web Interface
+- `index.html` - Complete chat application with:
+  - Login/Register UI
+  - Real-time chat interface
+  - Online users sidebar
+  - Embedded CSS styling
+  - JavaScript WebSocket logic
+
+### 📄 **Root Directory Files**
+- `.gitignore` - Git ignore rules
+- `LICENSE` - MIT License
+- `README.md` - Project documentation
+  
 ## ⚙️ Installation & Setup
 
 ### Prerequisites
