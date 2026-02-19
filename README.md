@@ -4,7 +4,6 @@ Real-time chat application using WebSockets for persistent, bi-directional commu
 
 A modern, real-time chat application built with **FastAPI** (WebSockets) and a clean **HTML/CSS/JavaScript** frontend. This application features secure user authentication, persistent chat history, and a responsive, interactive user interface with real-time messaging capabilities.
 
-![Chatterbox Demo](https://via.placeholder.com/800x400?text=Chatterbox+Live+Demo)
 
 ## 🚀 Features
 
@@ -227,11 +226,6 @@ Bcrypt for secure password hashing
 
 All contributors and users of this project
 
-📸 Screenshots
-Add screenshots of your application here
-
-Login Screen	Chat Interface
-https://via.placeholder.com/300x200	https://via.placeholder.com/300x200
 🚧 Future Enhancements
 User profile pictures
 
